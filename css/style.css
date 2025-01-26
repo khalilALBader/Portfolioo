@@ -316,6 +316,7 @@ body{
 }
 
 section{
+    width: 100%;
     display: flex;
     flex-wrap:wrap ;
 }
@@ -517,6 +518,8 @@ section{
 }
 
 .main-text{
+    width: 100%;
+    margin: auto;
     padding-top: 130px;
     margin-top: 200px;
 }
@@ -529,11 +532,20 @@ section{
     
     color: #0ef;
 }
+
+.portfolio{
+     width: 100%;
+}
 .portfolio-content{
+    width: 100%;
+    margin: 20px ;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(359px,auto));
+
 }
 .row{
+    width: 400px;
+    height: 400px;
     position: relative;
     overflow: hidden;
     border-radius: 8px;
